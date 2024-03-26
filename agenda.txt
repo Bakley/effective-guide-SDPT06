@@ -1,0 +1,125 @@
+High level language = has an interpretor
+The computer is a dummy beast
+
+What is programming?
+Giving instructions to execute
+
+
+what is a programming language?
+An artificially constructed language to instruct the computer
+
+The driving force is data, and the operation is CRUD
+
+Create data
+Read data
+Update data
+Delete data
+
+The data is stored in bits, usually zeros and ones
+
+If we group related bits together we for what we call values, every value has a type that will determine the role
+
+in js there are two types of data-types
+1. Privitive
+    Number => 5
+    Strings => `Hello World`
+    Boolean => true or false
+    Undefined => represents absence of a value
+    Null => the intentional absence of a value
+2. Objects
+    Store collection of key-value pairs
+    Real life represention of our world in terms of code
+
+Operators
+
+1 + 2 =? 1 & 2 ir named operands and the + is terms as an operator
+
+let x = 'Hello'
+
+What is a modulo => 14%3 => returns the remainder
+
+Logical operator => Short circuiting
+and => &&, or => ||, & not => !
+
+console.log(true && false)
+console.log(true || false)
+console.log(!false)
+
+
+Program Structure
+
+Expression => A fragment of code that produces a value
+
+   !false;
+Statement => They tend to contain expressions
+
+    const func = () => {};
+A Program is builts out of Statement
+
+
+Variable in js
+ - Helps to keep state(information given)
+ let, const, var
+
+ let catch_up = "Fridays";
+    * Can't redeclared
+    * Can reassign
+
+ const func = (x, y) => { 
+    return x * y
+ };
+    * Can't be redeclared
+    * can't reassign
+
+ var hosited = true
+    * Can redeclared
+    * Can reassign
+    + if it is a varaible declaration it will be hoisted creating scope issues
+
+Conditional Statements
+
+JavaScript includes three structures for implementing code conditionally: 
+    if statements, 
+    switch statements,
+    ternary expressions.
+
+let x = "Hello World"
+
+if (x){
+    // run if condition equates to true
+} else {
+    // run if condition equates to false
+}
+
+if (condition) {
+    //
+} else if (condition) {
+    //
+} else if (condition){
+    //
+} else {
+    //
+};
+
+
+switch(condition) {
+    case "waan":
+        action_wan()
+        break;
+
+    case "too":
+        action_too()
+        break;
+    
+    case "tree":
+        action_tree()
+        break;
+
+    case "floor":
+        action_floor()
+        break;
+
+    default:
+        default_action()
+        break;
+}
