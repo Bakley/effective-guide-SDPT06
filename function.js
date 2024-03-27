@@ -36,4 +36,4 @@ function main(callBackFunction) {
     return callBackFunction()
 }
 
-console.log(main(()=>`Hello World!`))
+console.log(main(() =>`Hello World!`))
